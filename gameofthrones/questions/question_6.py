@@ -3,4 +3,4 @@ from characters import *
 
 for key in range(len(characters)):
     if characters[key]['name'] == 'Hot Pie':
-        print(characters[key]['playedBy'])
+        print(characters[key]['playedBy'][0])
